@@ -63,15 +63,15 @@ EPY：年間予測発電年量（kWh/年）、　P：設置可能システム容
 | ディスプレイ解像度 | 1024×768以上                                                                                                                                                                                                                                                                                                                                    | 1024×768以上                   | 
 | ネットワーク       | 【解析・シミュレーション】<br>不要<br>【適地判定・集計】<br>範囲選択を使用しない場合はネットワーク環境不要。<br>範囲選択機能を使用する場合、以下のURLを閲覧可能な環境が必要。<br>国土地理院　地理院地図　<br>http://cyberjapandata.gsi.go.jp<br>地図表示のため標準地図を参照。<br>URL：https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png |  同左                            | 
 
-## 6.ソースファイルの構成 <!-- 本GitHub上のソースファイルの構成を記載ください。 -->
-| SolarPotential |　　　　　　ソリューション |
+## 6.ソースファイルのフォルダ構成 <!-- 本GitHub上のソースファイルの構成を記載ください。 -->
+| フォルダ名 |　詳細 |
 |-|-|
-|+-- AggregateData |　　　　 【パネル設置適地判定のデータ管理】 |
-|+-- AnalyzeData |　　　　　 【解析・シミュレーションのデータ管理】 |
-|+-- Analyzer |　　　　　　　【解析・シミュレーションの処理】 |
-|+-- CommonUtil |　　　　　　【SHPやGeoTIFFのデータ処理やファイル操作】 |
-|+-- JudgeSuitablePlace |　 【パネル設置適地判定の処理】 |
-|+-- SolarPotential |　　　 【GUI】 |
+| AggregateData | パネル設置適地判定のデータ管理 |
+| AnalyzeData | 解析・シミュレーションのデータ管理 |
+| Analyzer | 解析・シミュレーションの処理 |
+| CommonUtil | SHPやGeoTIFFのデータ処理やファイル操作 |
+| JudgeSuitablePlace | パネル設置適地判定の処理 |
+| SolarPotential | GUI |
 
 
 ## 7.ライセンス <!-- 変更せず、そのまま使うこと。 -->
