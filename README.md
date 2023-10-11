@@ -47,12 +47,12 @@ EPY：年間予測発電年量（kWh/年）、　P：設置可能システム容
 
 | 種別              | 名称   | バージョン | 内容 |
 | ----------------- | --------|-------------|-----------------------------|
-| ミドルウェア       | poetry | 1.3.2 | Pythonライブラリの管理 |
-| ライブラリ      | GeoAlchemy2 | 0.10.2 | SQL データベースを Python で利用するためのライブラリ <br> SQLAlchemyの空間データベース機能拡張（PostGIS にアクセスするために使用） |
-|       | Jageocoder | 2.0.0 | 住所ジオコーダライブラリ（不動産登記情報の所在地を登記所備付地図と突合するために使用） |
-|       | GEOS | 3.1.0 | 地理空間情報を処理するためのオープンソースライブラリ（Geometry Engine Open Source） |
-|       | Proj4 | 4.5.0 | 空間参照系変換ライブラリ |
-| フレームワーク | React.js | 18.2.0 | ユーザインターフェース構築のための JavaScript ライブラリ |
+| ミドルウェア       | [poetry](https://python-poetry.org/) | 1.3.2 | Pythonライブラリの管理 |
+| ライブラリ      | [GeoAlchemy2](https://geoalchemy-2.readthedocs.io/) | 0.10.2 | SQL データベースを Python で利用するためのライブラリ <br> SQLAlchemyの空間データベース機能拡張（PostGIS にアクセスするために使用） |
+|       | [Jageocoder](https://www.info-proto.com/jageocoder/) | 2.0.0 | 住所ジオコーダライブラリ（不動産登記情報の所在地を登記所備付地図と突合するために使用） |
+|       | [GEOS](https://libgeos.org/) | 3.1.0 | 地理空間情報を処理するためのオープンソースライブラリ（Geometry Engine Open Source） |
+|       | [Proj4](https://proj.org/) | 4.5.0 | 空間参照系変換ライブラリ |
+| フレームワーク | [React.js](https://react.dev/) | 18.2.0 | ユーザインターフェース構築のための JavaScript ライブラリ |
 
 ## 5.システム動作環境 <!-- 動作環境についての仕様を記載ください。 -->
 | 項目               | 最小動作環境                                                                                                                                                                                                                                                                                                                                    | 推奨動作環境                   | 
@@ -88,5 +88,3 @@ EPY：年間予測発電年量（kWh/年）、　P：設置可能システム容
 ## 9.参考資料 <!-- 技術検証レポートのURLはアクセンチュアにて記載します。 -->
 - 技術検証レポート: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0030_ver01.pdf
 - PLATEAU Webサイト Use caseページ「カーボンニュートラル推進支援システム」: https://www.mlit.go.jp/plateau/use-case/uc22-013/
-- 利用ライブラリ
-  - shapelib：https://github.com/OSGeo/shapelib 
