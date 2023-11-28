@@ -14,7 +14,7 @@
 本システムの詳細については[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0030_ver01.pdf)を参照してください。
 
 ## 3. 利用手順 <!-- 下記の通り、GitHub Pagesへリンクを記載ください。URLはアクセンチュアにて設定しますので、サンプルそのままでOKです。 -->
-本システムの構築手順及び利用手順については[利用チュートリアル](https://acn-yajima.github.io/SolarPotential/)を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル](https://plateau-acn.github.io/SolarPotential/)を参照してください。
 
 ## 4. システム概要 <!-- OSS化対象のシステムが有する機能を記載ください。 -->
 ### 【解析・シミュレーション】
