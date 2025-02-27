@@ -78,12 +78,12 @@ GS：標準試験条件による日射強度（kW・m^2） <br>
 ## 7. 本リポジトリのフォルダ構成 <!-- 本GitHub上のソースファイルの構成を記載ください。 -->
 | フォルダ名 |　詳細 |
 |-|-|
-| AggregateData | パネル設置適地判定のデータ管理 |
-| AnalyzeData | 解析・シミュレーションのデータ管理 |
-| Analyzer | 解析・シミュレーションの処理 |
-| CommonUtil | SHPやGeoTIFFのデータ処理やファイル操作 |
-| JudgeSuitablePlace | パネル設置適地判定の処理 |
-| SolarPotential | GUI |
+| src/AggregateData | パネル設置適地判定のデータ管理 |
+| src/AnalyzeData | 解析・シミュレーションのデータ管理 |
+| src/Analyzer | 解析・シミュレーションの処理 |
+| src/CommonUtil | SHPやGeoTIFFのデータ処理やファイル操作 |
+| src/JudgeSuitablePlace | パネル設置適地判定の処理 |
+| src/SolarPotential | GUI |
 
 
 ## 8. ライセンス <!-- 変更せず、そのまま使うこと。 -->
