@@ -84,7 +84,7 @@ GS：標準試験条件による日射強度（kW・m^2） <br>
 | src/CommonUtil | SHPやGeoTIFFのデータ処理やファイル操作 |
 | src/JudgeSuitablePlace | パネル設置適地判定の処理 |
 | src/SolarPotential | GUI |
-
+| data | サンプルデータ |
 
 ## 8. ライセンス <!-- 変更せず、そのまま使うこと。 -->
 
